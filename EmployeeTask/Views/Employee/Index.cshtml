@@ -1,0 +1,104 @@
+﻿@model IEnumerable<Employee.ViewModel.EmployeeVM>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="display-4 mb-4">Home</h2>
+<div class="row">
+    <div class="col-sm-6">
+        <button type="button" class="btn btn-primary mb-5" data-toggle="modal" data-target="#myModal" onclick="clearTextBox();">Add New Employee</button>
+    </div>
+    <div class="col-sm-6">
+        <div class="row">
+            <div class="col-sm-2">
+                <button class="btn btn-primary " onclick="search()">Search</button>
+            </div>
+            <div class="col-sm-10">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="sDate" placeholder="Search Birth Date" />
+                </div>
+            </div>
+        </div>
+         
+    </div>
+</div>
+<table class="table table-bordered table-hover table-striped text-center" id="myTable">
+    <thead>
+        <tr>
+            <th>
+                Employee Name
+            </th>
+            <th>
+                Birth Date
+            </th>
+            <th>
+                Gender
+            </th>
+            <th>
+                Country
+            </th>
+            <th>
+                City
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+       
+    </tbody>
+</table>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header text-left">
+                <h4 class="modal-title" id="myModalLabel">Add Employee</h4>
+                <button type="button" class="close" data-dismiss="modal">×</button>
+
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <input type="hidden" class="form-control" id="EId" />
+                    </div>
+                    <div class="form-group">
+                        <label for="EmployeeName">Employee Name</label>
+                        <input type="text" class="form-control" id="EmployeeName" placeholder="Employee Name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Birthdate">Birth Date</label>
+                        <input type="text" class="form-control" id="Birthdate" placeholder="dd/mm/yyyy" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Gender">Gender</label>
+                        <select class="form-control" id="Gender">
+                            <option value="" selected disabled>Select</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="CountryId">Country</label>
+                        <select class="form-control" id="CountryId">
+                            <option value="" selected disabled>Select</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="CityId">City</label>
+                        <select class="form-control" id="CityId">
+                            <option value="">Select</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="btnAdd" onclick="return Add();">Add</button>
+                <button type="button" class="btn btn-primary" id="btnUpdate" style="display:none;" onclick="Update();">Update</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+

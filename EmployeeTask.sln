@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeTask", "EmployeeTask\EmployeeTask.csproj", "{DC97369E-2802-4A3C-B0D2-032007AD2FA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.Data", "Employee.Data\Employee.Data.csproj", "{B2B11432-AA74-48D7-8438-306EBDFE8B97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.Model", "Employee.Model\Employee.Model.csproj", "{3823ABE2-9F91-4ACA-9DD1-C13484FBC4B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.ViewModel", "Employee.ViewModel\Employee.ViewModel.csproj", "{7A55358B-F856-4D27-8DC6-99CB029CEA88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.Repository", "Emloyee.Repository\Employee.Repository.csproj", "{FFC6B208-89CD-4B4F-834E-568ED4DBCCCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.Service", "Employee.Service\Employee.Service.csproj", "{EA983A42-0C5E-42B0-A340-4F94503BE025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fullstack Task", "Fullstack Task\Fullstack Task.csproj", "{2DDE156F-D94C-4E1A-90F8-33CC21C786D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC97369E-2802-4A3C-B0D2-032007AD2FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC97369E-2802-4A3C-B0D2-032007AD2FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC97369E-2802-4A3C-B0D2-032007AD2FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC97369E-2802-4A3C-B0D2-032007AD2FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B11432-AA74-48D7-8438-306EBDFE8B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B11432-AA74-48D7-8438-306EBDFE8B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B11432-AA74-48D7-8438-306EBDFE8B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B11432-AA74-48D7-8438-306EBDFE8B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3823ABE2-9F91-4ACA-9DD1-C13484FBC4B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3823ABE2-9F91-4ACA-9DD1-C13484FBC4B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3823ABE2-9F91-4ACA-9DD1-C13484FBC4B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3823ABE2-9F91-4ACA-9DD1-C13484FBC4B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A55358B-F856-4D27-8DC6-99CB029CEA88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A55358B-F856-4D27-8DC6-99CB029CEA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A55358B-F856-4D27-8DC6-99CB029CEA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A55358B-F856-4D27-8DC6-99CB029CEA88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC6B208-89CD-4B4F-834E-568ED4DBCCCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC6B208-89CD-4B4F-834E-568ED4DBCCCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC6B208-89CD-4B4F-834E-568ED4DBCCCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC6B208-89CD-4B4F-834E-568ED4DBCCCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA983A42-0C5E-42B0-A340-4F94503BE025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA983A42-0C5E-42B0-A340-4F94503BE025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA983A42-0C5E-42B0-A340-4F94503BE025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA983A42-0C5E-42B0-A340-4F94503BE025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DDE156F-D94C-4E1A-90F8-33CC21C786D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDE156F-D94C-4E1A-90F8-33CC21C786D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDE156F-D94C-4E1A-90F8-33CC21C786D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDE156F-D94C-4E1A-90F8-33CC21C786D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2636ED4-7D7B-4BC8-A8C1-47A0BB4605A9}
+	EndGlobalSection
+EndGlobal
